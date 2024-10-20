@@ -64,7 +64,7 @@ app.post('/', async (req: Request, res: Response) => {
         })
 
         res.json({
-            message: 'Se envió el correo',
+            message: 'Email sent successfully',
             info: result
         })
 
